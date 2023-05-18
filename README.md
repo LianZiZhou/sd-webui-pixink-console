@@ -8,7 +8,7 @@
 
 
 # Usage
-于WebUI - 扩展 - 从网址安装 输入 `https://github.com/LianZiZhou/sd-webui-pixink-console.git` 并点击安装。
+于WebUI - 扩展 - 从网址安装 输入 `https://github.com/LianZiZhou/sd-webui-pixink-console` 并点击安装。
 
 # Copyright
 Copyright © 2022 - 2023 Pix Ink 版权所有
