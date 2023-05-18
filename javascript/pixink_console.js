@@ -33,6 +33,11 @@ onUiLoaded(() => {
             bindOnclick();
             clearHistory();
         }
+        $('#pix_tabs .tab-nav button')[5].onclick = () => {
+            jumpUrl('https://civitai.com/');
+            bindOnclick();
+            clearHistory();
+        }
     }
     gradioApp().getElementById('download_predict').style.display = 'none';
     let iframeUrl = '';

@@ -64,6 +64,8 @@ def on_ui_tabs():
                 gr.HTML(html)
             with gr.Tab("杂谈农场", elem_id="pix_water"):
                 gr.HTML(html)
+            with gr.Tab("Civitai", elem_id="civitai"):
+                gr.HTML('')
         with gr.Blocks(analytics_enabled=False):
             gr.HTML(iframe)
             with gr.Row(elem_id="download_predict"):
