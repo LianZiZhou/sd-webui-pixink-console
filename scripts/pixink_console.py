@@ -69,7 +69,7 @@ def on_ui_tabs():
             with gr.Row(elem_id="download_predict"):
                 gr.Interface(fn=download_lora, inputs="text", outputs="text")
                 gr.Interface(fn=download_sd, inputs="text", outputs="text")
-    return [(PixInk_Blocks, "片绘社区", "片绘社区")]
+    return [(PixInk_Blocks, "Pix Ink Console", "Pix Ink Console")]
 
 
 script_callbacks.on_ui_tabs(on_ui_tabs)
