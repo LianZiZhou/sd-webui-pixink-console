@@ -60,6 +60,7 @@ onUiLoaded(() => {
             iframeUrl = event.data.data;
             if(history.length === 0) history.push(iframeUrl);
             if(iframeUrl.includes('navbar=hidden')) return;
+            if(iframeUrl.toLocaleLowerCase.includes('blocked')) return;
             if(iframeUrl.includes('?')) iframeUrl += '&navbar=hidden';
             else iframeUrl += '?navbar=hidden';
             gradioApp().getElementById('url-box').value = iframeUrl;
