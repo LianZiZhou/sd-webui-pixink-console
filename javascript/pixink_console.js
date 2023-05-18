@@ -14,7 +14,7 @@ onUiLoaded(() => {
             clearHistory();
         }
         $('#pix_tabs .tab-nav button')[1].onclick = () => {
-            jumpUrl('https://pix.ink/article?tab=元素法典&navbar=hidden');
+            jumpUrl('https://pix.ink/article?tab=词条分享&navbar=hidden');
             bindOnclick();
             clearHistory();
         }

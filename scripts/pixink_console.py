@@ -56,7 +56,7 @@ def on_ui_tabs():
         with gr.Tabs(elem_id="pix_tabs") as tabs:
             with gr.Tab("模型工坊", elem_id="pix_model"):
                 gr.HTML(html)
-            with gr.Tab("元素法典", elem_id="pix_fadian"):
+            with gr.Tab("词条分享", elem_id="pix_prompt"):
                 gr.HTML(html)
             with gr.Tab("绘图排行", elem_id="pix_artwork"):
                 gr.HTML(html)
