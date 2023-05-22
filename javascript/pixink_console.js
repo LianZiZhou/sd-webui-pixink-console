@@ -81,7 +81,7 @@ onUiLoaded(() => {
             }
             else {
                 $('#download_predict textarea')[2].value = data.url;
-                $('#download_predict textarea')[0].dispatchEvent(inputEvent);
+                $('#download_predict textarea')[2].dispatchEvent(inputEvent);
                 $('#download_predict .primary')[1].click();
             }
             Swal.fire('成功啦','已发送下载任务，请在WebUI控制台查看下载进度','success');
